@@ -1,0 +1,20 @@
+{
+  "name": "nedb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/nedb": "0.0.31",
+    "typescript": "^2.0.3"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
